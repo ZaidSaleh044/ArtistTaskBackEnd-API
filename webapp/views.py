@@ -12,7 +12,7 @@ from .serializers import albumSerlizer
 from .serializers import artistSerlizer
 from .serializers import songSerlizer
 
-# class
+
 
 class albumList(APIView):
     def get(self,request):
